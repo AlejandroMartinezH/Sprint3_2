@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <link rel="stylesheet" href="..\static\css\style.css" type="text/css">
+        <title>Registro</title>
+    </head>
+
+    <body class="body-register">
+        <main>
+            <form class="form-register" action="" autocomplete="on">
+                <h4>Datos Personales</h4>
+                <label for="nombres">
+                    <input class="controls" type="text" name="nombres" id="nombres" placeholder="Ingrese su Nombre" required>
+                </label>
+                <label for="apellidos">
+                    <input class="controls" type="text" name="apellidos" id="apellidos" placeholder="Ingrese su Apellido" required>
+                </label>
+                <label for="correo">
+                    <input class="controls" type="email" name="correo" id="correo" placeholder="Ingrese su Correo" required>
+                </label>
+                <label for="nacimiento">Fecha de Nacimiento:
+                    <input class="controls" type="date" name="nacimiento" id="nacimiento" required>
+                </label>
+                <label for="password">
+                    <input class="controls" type="password" name="password" id="password" placeholder="Ingrese su Contraseña" required>
+                </label>
+                <label for="confirm_password">
+                    <input class="controls" type="password" name="confirm_password" id="confirm_password" placeholder="Confirme su Contraseña" required>
+                </label>
+                <input class="botons" type="submit" value="Registrar">
+                <p><a href="terminos_y_condiciones.html">Terminos y Condiciones</a></p>
+                <p><a href="login.html">Ya poseo una Cuenta</a></p>
+            </form>
+        </main>
+    </body>
+</html>

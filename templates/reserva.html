@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="..\static\css\style.css" type="text/css">
+    <title>Reserva</title>
+</head>
+<body>
+    <main class="wrapper">
+        <div class="sidebar">
+            <h2><a href="usuario.html">El Embrujo</a></h2>
+            <ul>
+                <li><a href="profile_user.html">Perfil</a></li>
+                <li><a href="checkin.html">Check-In</a></li>
+                <li><a href="vuelos.html">Mis Vuelos</a></li>
+                <li><a href="reserva.html">Reserva</a></li>
+            </ul>
+            <div class="bar">
+                <a href="login.html">Cerrar Sesión</a>
+            </div>
+        </div>
+        <section class="form-reserva">
+            <form action="">
+                <label for="origen">Origen:
+                    <input list="ciudades" type="text" id="origen" name="origen"/>
+                    <datalist id="ciudades">
+                        <option value="Bogotá, Bogotá D.C., Colombia"></option>
+                        <option value="Medellín, Antioquia, Colombia"></option>
+                        <option value="Cali, Valle del Cauca, Colombia"></option>
+                        <option value="Barranquilla, Atlántico, Colombia"></option>
+                        <option value="Cartagena de Indias, Bolívar, Colombia"></option>
+                        <option value="Cúcuta, Norte de Santander, Colombia"></option>
+                        <option value="Santa Marta, Magdalena, Colombiasan"></option>
+                        <option value="San Andrés, Providencia y Santa Catalina, Archipiélago de San Andrés, Colombia"></option>
+                        <option value="Riohacha, La Guajira, Colombia"></option>
+                        <option value="Leticia, Amazonas, Colombia"></option>
+                    </datalist>
+                </label>
+                <label for="destino">Destino:
+                    <input list="ciudades" type="text" id="destino" name="destino"/>
+                    <datalist id="ciudades">
+                        <option value="Bogotá, Bogotá D.C., Colombia"></option>
+                        <option value="Medellín, Antioquia, Colombia"></option>
+                        <option value="Cali, Valle del Cauca, Colombia"></option>
+                        <option value="Barranquilla, Atlántico, Colombia"></option>
+                        <option value="Cartagena de Indias, Bolívar, Colombia"></option>
+                        <option value="Cúcuta, Norte de Santander, Colombia"></option>
+                        <option value="Santa Marta, Magdalena, Colombiasan"></option>
+                        <option value="San Andrés, Providencia y Santa Catalina, Archipiélago de San Andrés, Colombia"></option>
+                        <option value="Riohacha, La Guajira, Colombia"></option>
+                        <option value="Leticia, Amazonas, Colombia"></option>
+                    </datalist>
+                </label>
+                <label for="ida">Ida:
+                    <input type="date" id="ida" name="ida"/>
+                </label>
+                <label for="regreso">Regreso
+                    <input type="date" id="regreso" name="regreso"/>
+                </label>
+                <input class="botons" type="submit" value="Buscar"/>
+                <input class="botons" type="submit" value="Reservar"/>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
